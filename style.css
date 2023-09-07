@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cream);
+}
+:root{
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --black : hsl(0, 0%, 0%);
+    --font-size: 14px;
+    --font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.Main{
+    
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.con{
+    width: 100%;
+    height: 70%;
+    background-color: var(--white);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.con .left  img{
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-cyan);
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con .left img img{
+    width: 50%;
+    height: 50%;
+}
+.con .right{
+    width: 50%;
+    height: 100%;
+}
+.con .right h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--dark-grayish-blue);
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+}
+.con .right h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+}
+.con .right p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+}
+.price {
+    display: flex;
+    align-items: center;
+}
+.con .right  .price p  {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--dark-cyan);
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+}
+.con .right  .price p.pre {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark-grayish-blue);
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-decoration: line-through;
+}
+button {
+    display:flex;
+    align-items: center;
+}
+.con .right button {
+    margin: 0 auto;
+    width: 50%;
+    height: 3rem;
+    background-color: var(--dark-cyan);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.con .right button:hover {
+    background-color: var(--very-dark-blue);
+}
+.con .right button img {
+    width: 20px;
+    height: 20px;
+    margin:0  1rem;
+}
